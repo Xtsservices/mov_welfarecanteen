@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import WorldtekLogo from "../components/common/worldTekLogo";
 import { languageTexts } from "../utils/data";
 import { toastError } from "../components/common/toasterMessage";
-import logo from "../assets/images/Naval1.png";
+import logo from "../assets/images/movlogo.jpg";
 import { useDispatch } from "react-redux";
 
 import { BASE_URL } from "../constants/api";
@@ -416,7 +416,7 @@ const LoginScreen: React.FC = () => {
         md={12}
         lg={12}
         style={{
-          backgroundColor: "#00205B",
+          backgroundColor: "#111112ff",
           height: "100vh",
           display: "flex",
           justifyContent: "center",
@@ -426,7 +426,13 @@ const LoginScreen: React.FC = () => {
         <img
           src={logo}
           alt="Logo"
-          style={{ maxWidth: "120%", maxHeight: "120%" }}
+          style={{ 
+    maxWidth: "80%", 
+    maxHeight: "80%",
+    width: "auto",
+    height: "auto",
+    objectFit: "contain"
+  }}
         />
       </Col>
     </Row>
