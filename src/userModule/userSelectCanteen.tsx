@@ -27,7 +27,7 @@ const API_URL = "/user/getAllCanteens";
 
 // Static units data (replace with API call if needed)
 const units: Unit[] = [
-  { id: 1, unitName: "NDY", unitImage: ndylogo },
+  { id: 1, unitName: "NDV", unitImage: ndylogo },
   { id: 2, unitName: "MO(V)", unitImage: movlogo},
 ];
 
