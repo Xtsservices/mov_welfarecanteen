@@ -120,6 +120,7 @@ const App = () => {
           </Route>
 
           <Route path="/user/select-canteen" element={<UserSelectCanteen />} />
+          <Route path="/user/select-unit" element={<UserSelectCanteen />} />
           <Route path="/user/select-menu" element={<SelectMenu />} />
           <Route path="/user/selected-menu/:id" element={<MenuByItems />} />
           {/* <Route path="/user/myCart" element={<Cart />} /> */}
